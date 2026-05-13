@@ -13,9 +13,8 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Aahil Ali
 description              : Aahil Ali - Projects and CV 
-baseurl                  : "" # Set this to "portfolio-<your-github-username>" 
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-
+baseurl: "/spring-2025-portfolio-aahil24108"
+url: "https://cornell-mae-ug.github.io"
 # Theme and Style
 theme: jekyll-theme-minimal
 color_scheme: light # light/default, dark, or aqua
