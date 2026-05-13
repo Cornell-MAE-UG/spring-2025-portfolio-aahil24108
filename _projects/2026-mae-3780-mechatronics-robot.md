@@ -1,6 +1,8 @@
 ---
+layout: project
 title: "MAE 3780 Mechatronics Robot Project"
 excerpt: "A team-based mechatronics project focused on designing, building, coding, and testing an autonomous cube-collecting robot."
+permalink: /projects/mechatronics-robot/
 image: /assets/images/mechatronics-robot.jpg
 ---
 

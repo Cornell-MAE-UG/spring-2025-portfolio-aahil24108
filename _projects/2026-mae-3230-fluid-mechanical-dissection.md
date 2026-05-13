@@ -1,4 +1,5 @@
 ---
+layout: project
 title: "Fluid Mechanical Dissection"
 permalink: /projects/fluid-mechanical-dissection/
 image: /assets/images/fluid-mechanics-pump.jpg

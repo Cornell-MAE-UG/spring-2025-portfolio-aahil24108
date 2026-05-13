@@ -1,6 +1,8 @@
 ---
+layout: project
 title: "MAE 3240 Heat Transfer Homework Reflection"
 excerpt: "A reflection on a MAE 3240 heat transfer homework assignment involving fins, heat sinks, thermal resistance networks, and lumped capacitance."
+permalink: /projects/heat-transfer/
 image: /assets/images/heat-transfer.jpg
 ---
 

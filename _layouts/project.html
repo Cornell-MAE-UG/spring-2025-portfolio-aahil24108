@@ -2,14 +2,24 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<article class="project-page">
 
-<p><img src="{{ page.image | relative_url }}" alt="{{ page.imagealt }}" class="project-image" /></p>
+  <h1>{{ page.title }}</h1>
 
-{{ content }}
+  {% if page.image %}
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="project-hero-image">
+  {% endif %}
 
-<p><strong>Technologies Used</strong>: {{ page.technologies | join: ", " }}</p>
+  <div class="project-content">
+    {{ content }}
+  </div>
 
-<a href={{ "/projects/" | relative_url }} class="back-arrow">
-    <i class="bi bi-arrow-left-circle-fill"></i> Back to Projects
-</a>
+  {% if page.technologies %}
+    <p><strong>Technologies Used:</strong> {{ page.technologies | join: ", " }}</p>
+  {% endif %}
+
+  <p class="back-link">
+    <a href="{{ '/projects/' | relative_url }}">← Back to Projects</a>
+  </p>
+
+</article>
