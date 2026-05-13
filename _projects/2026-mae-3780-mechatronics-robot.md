@@ -42,4 +42,4 @@ I also learned that competition strategy matters just as much as the physical de
 
 ## Final Report
 
-<a href="{{ "/assets/MAE_3780_Final_Report.pdf" | relative_url }}" target="_blank">View Final Report PDF</a>
+[View Final Report PDF]({{ '/assets/MAE 3780 Final Report.pdf' | relative_url }})

@@ -25,7 +25,7 @@ allowfullscreen>
 
 You can view the full project report below:
 
-[Download the Fluid Mechanical Dissection Report](/assets/Fluids%20Final%20Project%20-%20Google%20Docs.pdf)
+[Download the Fluid Mechanical Dissection Report]({{ '/assets/Fluids Final Project - Google Docs.pdf' | relative_url }})
 
 ## Engineering Analysis
 
