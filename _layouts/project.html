@@ -14,10 +14,6 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.technologies %}
-    <p><strong>Technologies Used:</strong> {{ page.technologies | join: ", " }}</p>
-  {% endif %}
-
   <p class="back-link">
     <a href="{{ '/projects/' | relative_url }}">← Back to Projects</a>
   </p>
